@@ -70,9 +70,6 @@ header {
     margin-bottom: 0;
 }
 
-#p1_about {
-
-}
 
 .card {
     width: 25rem;
@@ -115,4 +112,67 @@ header {
     text-align: start;
     padding-bottom: 10px;
     line-height: 1.5;
+}
+
+
+#history {
+    background-image: url(../images/bg_appareil_photo.jpg);
+    background-attachment: fixed;    
+    background-position: top;     
+    background-size: cover;
+    height: 900px;
+}
+
+.card-title_h {
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.card-text_h {
+    justify-content: center;
+    line-height: 2;
+    font-size: 1em;
+}
+
+.card_h6 {
+    font-size: 2.4em;
+    justify-content: center;
+    text-align: start;
+}
+
+#photos {
+    background-color: rgb(235, 233, 233);
+}
+
+#photo_desk {
+    width: 840px;
+}
+
+#photo_bridge {
+    width: 420px;
+    height: 650px;
+}
+
+#photo_motel {
+    width: 840px;
+}
+
+#photo_camera {
+    width: 400px;
+}
+
+#photo_mountain {
+    height: 1000px;
+}
+
+#photo_plane {
+    width: 413px;
+    height: 290px;
+}
+
+.partenaires_img {
+    width: 250px;
+    height: 200px;
 }
