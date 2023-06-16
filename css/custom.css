@@ -169,10 +169,68 @@ header {
 
 #photo_plane {
     width: 413px;
-    height: 290px;
+    height: 282px;
 }
 
 .partenaires_img {
     width: 250px;
     height: 200px;
 }
+
+.blurred_photo {
+    background-image: url(../images/bg_newsletter.jpg);
+    background-attachment: fixed;         
+    background-size: cover;
+    height: 500px;
+    z-index: -1;
+    filter: blur();
+}
+
+.h1-text {
+    z-index: 1;
+}
+
+#Email1 {
+    width: 400px;
+}
+
+.text_newsletter {
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgba(36,50,59,255);
+    height: 300px;
+    color: ghostwhite;
+}
+
+.footer_copyright {
+    color: rgba(46,168,182,255);
+}
+
+.svgs_logo {
+    width: 30px;
+}
+
+
+
+
+
+
+@media(max-width:767px){
+    
+}
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:992px){
+
+    
+}
+
+@media(min-width:1200px){
+
+}
+
