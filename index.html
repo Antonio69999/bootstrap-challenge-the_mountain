@@ -1,258 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The mountain</title>
-    <link rel="stylesheet" href="./css/custom.css">
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
-    <header id="home">
-        <nav class="navbar container">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#" id="logo_text">
-                    <img src="./images/your_logo.png" alt="logo" id="your_logo">
-                    LOGO
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#">Home</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#features">Features</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#about">About Me</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#blog">My Blog</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#history">My History</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#photos">Look My Photo</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#contact">Get In Touch</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                                <a class="nav-link text-light" href="#">Download</a>
-                                <hr class="border border-secondary border-1 opacity-20">
-                            </li>
-                    </div>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Rokkitt:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header id="home" class="p-5">
+      <nav class="navbar navbar-light bg-transparent fixed-top">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="./index.html">
+            <img src="./images/your_logo.png" width="200px" alt="" srcset="" />
+            <p class="fs-1 mt-4 fw-light">LOGO</p>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-start text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Dark offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-        </nav>
-        <div class="container d-flex col-3">
-            <h1 class="mt-5" id="h1_king_1">In the hall of the <span class="fw-bold span2">Mountain King</span></h1>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav text-white justify-content-end flex-grow-1 pe-3"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <p class="container d-flex col-3 mt-5" id="p_title">This is a simple hero unit, a simple jumbotron-style
-            component for calling extra attention to featured content or information</p>
-        <div class="container d-flex col-2 justify-content-between mt-5">
-            <button type="button" class="btn btn-info btn text-light rounded-0">Learn more</button>
-            <button type="button" class="btn btn-danger btn rounded-0">Download</button>
-        </div>
-    </header>
+      </nav>
+      <div
+        class="content vh-100 p-5 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1
+          class="d-flex flex-column align-items-center p-5 text-white text-center"
+        >
+          In the hall of the
+          <span>Mountain King</span>
+        </h1>
 
-    <div id="features" class="container-fluid">
-        <div class="row mt-5 p-1">
-          <div class="col-sm-6 col-md-4 mb-5">
-            <img src="./SVGS/pen-svgrepo-com.svg" alt="pen_svg" class="img-fluid" id="svg">
-            <h2 class="mt-3 mb-4">Consectetur Risus</h2>
-            <p class="features_p">Nihil est enim virtute amabilius, nihil quod magis adliciat ad diligendum, quippe cum propter virtutem et probitatem etiam eos, quos numquam vidimus, quodam modo diligamus. Quis est qui C. Fabrici, M'</p>
+        <p class="w-50 text-center text-white p-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facere
+          vero deserunt! Vitae, sed velit eius nulla optio ipsum, distinctio
+          error fuga beatae labore pariatur blanditiis, dignissimos doloribus
+          nam dolores!
+        </p>
+        <div class="p-5 d-flex justify-content-center align-items-center">
+          <button class="btn rounded-0 me-1 btn-lg btn-info text-white">
+            Learn more
+          </button>
+          <button class="btn rounded-0 ms-1 btn-lg btn-danger">Download</button>
+        </div>
+      </div>
+    </header>
+    <section id="features">
+      <div class="container-lg p-4">
+        <div id="consecutur" class="row">
+          <div class="col d-flex flex-column align-items-center">
+            <i class="fa-solid fa-pencil fa-2x"></i>
+            <h4 class="py-2">Consecetur Risus</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              suscipit magnam voluptas modi distinctio, porro totam repellat
+              deserunt aliquid iusto mollitia soluta? Esse quibusdam atque
+              numquam soluta officiis fugiat recusandae.
+            </p>
           </div>
-      
-          <div class="col-sm-6 col-md-4 mb-5">
-            <img src="./SVGS/camera-svgrepo-com.svg" alt="camera_svg" class="img-fluid" id="svg">
-            <h2 class="mt-3 mb-4">Ultricies Aenean</h2>
-            <p class="features_p">Nihil est enim virtute amabilius, nihil quod magis adliciat ad diligendum, quippe cum propter virtutem et probitatem etiam eos, quos numquam vidimus, quodam modo diligamus. Quis est qui C. Fabrici, M'</p>
+          <div class="col d-flex flex-column align-items-center">
+            <i class="fa-solid fa-camera fa-2x"></i>
+            <h4 class="py-2">Consecetur</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              suscipit magnam voluptas modi distinctio, porro totam repellat
+              deserunt aliquid iusto mollitia soluta? Esse quibusdam atque
+              numquam soluta officiis fugiat recusandae.
+            </p>
           </div>
-      
-          <div class="col-sm-6 col-md-4 mb-5">
-            <img src="./SVGS/bookmark-svgrepo-com.svg" alt="bookmark_svg" class="img-fluid" id="svg">
-            <h2 class="mt-3 mb-4">Cras Sollicitudin</h2>
-            <p class="features_p">Nihil est enim virtute amabilius, nihil quod magis adliciat ad diligendum, quippe cum propter virtutem et probitatem etiam eos, quos numquam vidimus, quodam modo diligamus. Quis est qui C. Fabrici, M'</p>
+          <div class="col d-flex flex-column align-items-center">
+            <i class="fa-solid fa-bookmark fa-2x"></i>
+            <h4 class="py-2">Consecetur</h4>
+            <p class="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              suscipit magnam voluptas modi distinctio, porro totam repellat
+              deserunt aliquid iusto mollitia soluta? Esse quibusdam atque
+              numquam soluta officiis fugiat recusandae.
+            </p>
           </div>
         </div>
       </div>
-      
-
-    <div id="about">
-        <div class="container d-flex flex-row-reverse h-100">
-            <div class="card bg-info">
-                <div class="card-body">
-                    <h5 class="card-title">Ligula Mattis Ornare Ultricies</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Pellteesque Cursus Amet Patrurient Etriam</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dicta
-                        alias maxime, ad quisquam delectus debitis sit magnam fuga minus, sed ab. Vitae corrupti
-                        adipisci, culpa reiciendis similique id ipsa.</p>
-                    <div class="d-flex justify-content-between">
-                        <p class="square border">lorem dolor</p>
-                        <p class="square border">lorem dolor</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="blog">
-        <div class="container d-flex">
-            <div class="mt-5">
-                <h1 class="blog_title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
-                <p class="pb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deleniti ipsum minima
-                    magni neque perferendis, debitis excepturi fugit iure error explicabo sunt autem odit ullam! Libero
-                    rem commodi magnam vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vel eum quo
-                    repellendus deleniti, alias impedit nam quasi earum distinctio corrupti incidunt voluptatem,
-                <p class="pb-4">cum inventore sapiente totam tempore dolorem asperiores. Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Delectus commodi rem voluptatem eius dolorum vel facere tempora,
-                    architecto nostrum voluptates quibusdam impedit, nesciunt veritatis id dolore quo esse. Saepe,
-                    provident!</p>
-                <button type="button" class="btn btn-danger btn-lg rounded-0">Take a Look ➲ </button>
-            </div>
-            <div class="">
-                <img class="img_blog" src="./images/1200.jpeg" alt="blog_img">
-            </div>
-        </div>
-    </div>
-
-
-    <div id="history">
-        <div class="container d-flex flex-row h-100">
-            <div class="card bg-info">
-                <div class="card-body">
-                    <h5 class="card-title_h">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores facilis
-                        dolorem eius et excepturi ab ullam totam porro sapiente itaque nostrum libero hic cupiditate,
-                        quae asperiores, autem architecto aut cumque.</h5>
-                    <p class="card-text_h">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dicta
-                        alias maxime, ad quisquam delectus debitis sit magnam fuga minus, sed ab. Vitae corrupti
-                        adipisci, culpa reiciendis similique id ipsa. Lorem ipsum, dolor sit amet consectetur
-                        adipisicing elit. Sequi at nihil, et earum ipsam consectetur explicabo rem fuga sunt veritatis
-                        consequatur in expedita cumque quas, quisquam unde praesentium. Totam, facilis.</p>
-                    <h6 class="card_h6"> - Fermentum Dapibus</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <div id="photos">
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="./images/300.jpeg" alt="photo_desk" id="photo_desk" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 mt-3">
-                            <img src="./images/800.jpeg" alt="photo_bridge" id="photo_bridge" class="img-fluid">
-                            <img class="mt-4" src="./images/140.jpeg" alt="photo_motel" id="photo_motel" class="img-fluid">
-                        </div>
-    
-                        <div class="col-lg-6 mt-3">
-                            <img src="./images/400.jpeg" alt="photo_standing" id="photo_standing" class="img-fluid">
-                            <img class="mt-4" src="./images/2476.jpeg" alt="photo_camera" id="photo_camera" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <img src="./images/776.jpeg" alt="photo_mountain" id="photo_mountain" class="img-fluid">
-                    <img class="mt-4" src="./images/439.jpeg" alt="photo_plane" id="photo_plane" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    <div class="partenaires mb-5 mt-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <img class="partenaires_img img-fluid" src="./images/logo-sample-01.jpg" alt="logo1">
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <img class="partenaires_img img-fluid" src="./images/logo-sample-02.jpg" alt="logo2">
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <img class="partenaires_img img-fluid" src="./images/logo-sample-03.png" alt="logo3">
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <img class="partenaires_img img-fluid" src="./images/logo-sample-04.jpg" alt="logo4">
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <img class="partenaires_img img-fluid" src="./images/logo-sample-05.jpg" alt="logo5">
-                </div>
-                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-                    <img class="partenaires_img img-fluid" src="./images/logo-sample-06.png" alt="logo6">
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    <div id="contact">
-        <div class="blurred_photo">
-            <div class="container text-light">
-                <h1 class="mb-5">TITRE TITRE TITRE TITRE TITRE</h1>
-                <p class="text_newsletter mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis repellendus reprehenderit
-                    illo voluptas quisquam temporibus architecto minima, delectus, sunt iure totam soluta vitae hic quas
-                    modi eveniet aliquam reiciendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus eum dolorem maiores similique rerum dolorum asperiores, odio ea debitis! Ex aliquam possimus ducimus neque inventore labore expedita, magnam architecto fugit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam tempora enim quae quidem itaque perspiciatis ipsa ducimus fugit totam vitae aliquid, eveniet, labore neque, dolore suscipit dignissimos qui ad perferendis!</p>
-            </div>
-            <form>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-md-6 col-lg-4 mx-auto">
-                            <div class="mb-3">
-                                <input type="email" class="form-control rounded-0 mb-3" id="Email1" aria-describedby="emailHelp" placeholder="Your Email Here...">
-                                <button type="submit" class="btn btn-danger rounded-0">Submit Newsletter</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    
-
-    <footer class="footer">
-        <div class="container">
-            <h1 class="p-5">YOUR LOGO</h1>
+    </section>
+    <section id="about">
+      <div class="container-lg">
+        <div class="row px-4 justify-content-end">
+          <div class="w-50 p-5 bg-opacity">
+            <h2 class="text-white">Ligula Mattis Ornare Ultricies</h2>
+            <h4 class="text-white py-4">
+              Ligula Mattis Ornare Ultricies Ligula Mattis Ornare
+            </h4>
+            <p class="text-white lh-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              mollitia velit, quae voluptatem nam commodi! Quis dolore nobis
+              doloremque maxime nam error voluptatem. At voluptas accusamus
+              nostrum quis repudiandae nam.
+            </p>
             <div class="d-flex justify-content-between">
-                <p>© 2016 Your Company. Designed and Devlopped by <span class="footer_copyright">The Maitre jet d'ail</span></p>
-                <div class="footer_logo">
-                <a href="#"><img class="svgs_logo" src="./SVGS/brands/facebook-square.svg" alt="facebok_logo"></a>
-                <a href="#"><img class="svgs_logo" src="./SVGS/brands/twitter-square.svg" alt="twiiter_logo"></a>
-                <a href="#"><img class="svgs_logo" src="./SVGS/brands/tumblr-square.svg" alt="tumblr_logo"></a>
-                <a href="#"><img class="svgs_logo" src="./SVGS/brands/git-square.svg" alt="git_logo"></a>
-                </div>
+              <div class="text-white border p-5">
+                <h4>Ultricies</h4>
+                <h4 class="h1">23,578</h4>
+              </div>
+              <div class="text-white border p-5">
+                <h4>Fermentum</h4>
+                <h4 class="h1">23,578</h4>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <section id="">
+      <div class="container-lg py-5">
+        <div id="velo" class="row px-4 align-items-center">
+          <div class="col p-5">
+            <h1 class="">Ligula Mattis Ornare Ultricies</h1>
+            <h4 class="py-4">
+              Ligula Mattis Ornare Ultricies Ligula Mattis Ornare
+            </h4>
+            <p class="lh-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              mollitia velit, quae voluptatem nam commodi! Quis dolore nobis
+              doloremque maxime nam error voluptatem. At voluptas accusamus
+              nostrum quis repudiandae nam.
+            </p>
+            <p class="lh-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              mollitia velit, quae voluptatem nam commodi! Quis dolore nobis
+              doloremque maxime nam error voluptatem. At voluptas accusamus
+              nostrum quis repudiandae nam.
+            </p>
+            <button class="btn btn-lg btn-danger rounded-0">
+              Take a Look
+              <i class="fa-solid fa-circle-arrow-right"></i>
+            </button>
+          </div>
+          <div class="col">
+            <img src="./images/1200.jpeg" class="w-100" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="history">
+      <div class="container-lg">
+        <div class="row px-4">
+          <div class="w-50 p-5 bg-opacity">
+            <figure class="text-white">
+              <blockquote cite="https://www.huxley.net/bnw/four.html">
+                <p>
+                  Words can be like X-rays, if you use them properly—they’ll go
+                  through anything. You read and you’re pierced.
+                </p>
+                <p>
+                  Words can be like X-rays, if you use them properly—they’ll go
+                  through anything. You read and you’re pierced.
+                </p>
+                <p>
+                  Words can be like X-rays, if you use them properly—they’ll go
+                  through anything. You read and you’re pierced.
+                </p>
+                <p>
+                  Words can be like X-rays, if you use them properly—they’ll go
+                  through anything. You read and you’re pierced.
+                </p>
+                <p>
+                  Words can be like X-rays, if you use them properly—they’ll go
+                  through anything. You read and you’re pierced.
+                </p>
+                <p>
+                  Words can be like X-rays, if you use them properly—they’ll go
+                  through anything. You read and you’re pierced.
+                </p>
+                <p>
+                  Words can be like X-rays, if you use them properly—they’ll go
+                  through anything. You read and you’re pierced.
+                </p>
+              </blockquote>
+              <figcaption>
+                —Aldous Huxley, <cite>Brave New World</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos" class="p-5">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-8 col-12 col-md-4">
+            <img src="./images/300.jpeg" class="py-2 w-100" alt="" />
+            <div class="row">
+              <div id="san-francisco-bridge" class="col p-2">
+                <img src="./images/800.jpeg" class="w-100" alt="" />
+              </div>
+              <div class="col">
+                <img src="./images/400.jpeg" class="py-2 w-100" alt="" />
+                <img src="./images/2476.jpeg" class="py-2 w-100" alt="" />
+              </div>
+              <img src="./images/140.jpeg" class="py-2 w-100" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <img src="./images/776.jpeg" class="py-2 w-100" alt="" />
+            <div id="navette">
+              <img src="./images/439.jpeg" class="py-2 w-100" alt="" />
+            </div>
+          </div>
+          <div id="photos-tablette" class="d-none col-md-4 col-12">
+            <img src="./images/800.jpeg" class="py-2 w-100" alt="" />
+            <img src="./images/439.jpeg" class="py-2 w-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div id="logos" class="row p-4">
+          <div class="col">
+            <img src="./images/logo-sample-01.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="./images/logo-sample-02.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="./images/logo-sample-03.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="./images/logo-sample-04.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="./images/logo-sample-05.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="./images/logo-sample-06.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div>
+        <div class="container-lg">
+          <div class="w-50 d-flex px-4">
+            <div class="p-5">
+              <h2 class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </h2>
+              <p class="text-white py-5">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium ad atque assumenda sunt ipsum ratione consectetur
+                error. Repudiandae tenetur ut, officiis, est dolor alias ullam
+                natus numquam aliquid unde illum! Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Praesentium ad atque assumenda
+                sunt ipsum ratione consectetur error. Repudiandae tenetur ut,
+                officiis, est dolor alias ullam natus numquam aliquid unde
+                illum!
+              </p>
+              <form action="" class="d-flex flex-column">
+                <input
+                  class="p-2 w-75"
+                  type="text"
+                  placeholder="Your Email Here"
+                />
+                <button class="w-50 rounded-0 mt-3 btn btn-lg btn-danger">
+                  Sumbit Newsletter
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row px-4">
+          <div class="col p-5">
+            <h2 class="text-white fs-1">Your Logo</h2>
+            <p class="text-white py-5">
+              Lorem ipsum dolor sit amet cons
+              <span class="text-info">The maitre Jet d'Ail</span>
+            </p>
+          </div>
+          <div class="col d-flex justify-content-end align-items-center">
+            <i class="fa-brands p-2 fa-2x text-info fa-square-twitter"></i>
+            <i class="fa-brands p-2 fa-2x text-info fa-square-facebook"></i>
+            <i class="fa-brands p-2 fa-2x text-white fa-square-twitter"></i>
+            <i class="fa-brands p-2 fa-2x text-white fa-square-github"></i>
+            <i class="fa-brands p-2 fa-2x text-white fa-square-reddit"></i>
+          </div>
+        </div>
+      </div>
     </footer>
 
+    <a href="#home" class="scroll-to-top">
+      <i class="fa-solid fa-2x text-secondary fa-circle-up"></i>
+    </a>
 
-
-
-
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous">
-    </script>
-</body>
-
-</html
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
